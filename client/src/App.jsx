@@ -5,6 +5,16 @@ import Auth from './pages/Auth'
 
 export const ServerUrl = "http://localhost:8000"
 function App() {
+  useEffect(()=>{
+    const getUser = async()=>{
+      try {
+        const result = await axios.get(ServerUrl+"/api/user/current-user",{withCredentials:true})
+        console.log(result.data)
+      } catch (error) {
+        console.log(error)
+      }
+    }
+  })
   return (
    <Routes>
      <Route path='/' element=<Home/> />
