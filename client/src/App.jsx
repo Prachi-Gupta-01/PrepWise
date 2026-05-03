@@ -4,7 +4,9 @@ import Home from './pages/Home'
 import Auth from './pages/Auth'
 import { useDispatch } from 'react-redux'
 import { useEffect } from 'react'
-
+import Pricing from './pages/Pricing'
+import InterviewReport from './pages/InterviewReport' 
+import InterviewHistory from './pages/InterviewHistory'
 import { setUserData } from './redux/userSlice'
 export const ServerUrl = "http://localhost:8000"
 function App() {
@@ -26,6 +28,9 @@ function App() {
    <Routes>
      <Route path='/' element=<Home/> />
      <Route path='/auth' element=<Auth/> />
+      <Route path='/history' element={<InterviewHistory/>}/>
+      <Route path='/pricing' element={<Pricing/>}/>
+       <Route path='/report/:id' element={<InterviewReport/>}/>
    </Routes>
   )
 }
