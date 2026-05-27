@@ -1,100 +1,231 @@
-# PrepWise – AI Interview Preparation Platform
+<div align="center">
 
-PrepWise is a MERN Stack AI-powered interview preparation platform that helps users prepare for job interviews through personalized AI-generated interview questions. Users can upload their resume, practice technical and HR interview rounds, receive intelligent feedback, and purchase credits for continued access.
+# 🚀 PrepWise – AI Interview Preparation Platform
 
-The goal of PrepWise is to simplify interview preparation by providing a smart, personalized, and interactive interview experience.
+### Smart AI-Powered Mock Interview & Resume-Based Preparation System
 
-## Features
 
-### Resume Upload
-- Upload resume in PDF format
-- Extract resume information for personalized interviews
-- Secure file handling
 
-### AI Interview Question Generation
-- Generate personalized interview questions instantly
-- Questions based on uploaded resume and skills
-- Technical and HR interview support
+<p align="center">
+  <a href="https://prepwise-client.onrender.com/"> Live Demo</a> •
+  <a href="https://github.com/Prachi-Gupta-01/PrepWise"> Repository</a>
+</p>
 
-### Practice Technical & HR Rounds
-- Simulate real interview sessions
-- Practice technical questions
-- HR and behavioral interview preparation
-
-### Intelligent Feedback
-- AI-generated performance analysis
-- Personalized improvement suggestions
-- Interview response evaluation
-
-### Credit-Based Access System
-- Credit usage for interview sessions
-- Track remaining credits
-- Controlled feature access
-
-### Razorpay Payment Integration
-- Purchase interview credits securely
-- Fast and seamless payment experience
-- Credit wallet system
-
-### Modern UI & Smooth Experience
-- Responsive and modern design
-- Smooth animations using Framer Motion
-- Interactive and clean user interface
-
-### Full Stack Deployment
-- Frontend and backend deployment on Render
-- Scalable production-ready setup
+</div>
 
 ---
 
-## Tech Stack
+# 📌 Overview
 
-### Frontend
+**PrepWise** is a full-stack AI-powered interview preparation platform built using the **MERN Stack**.  
+It helps users prepare for technical and HR interviews through:
+
+-  Resume-based AI interview generation
+-  Personalized mock interview practice
+-  Intelligent AI feedback system
+-  Credit-based access with Razorpay integration
+
+The platform provides a real interview-like experience and helps users improve confidence, communication, and technical skills.
+
+---
+
+# ✨ Features
+
+## Resume Upload & Analysis
+- Upload resumes in PDF format
+- Extract skills and candidate information
+- Personalized interview generation based on resume content
+- Secure file handling system
+
+---
+
+##  AI Interview Question Generation
+- AI-generated personalized interview questions
+- Technical & HR interview support
+- Dynamic question generation using AI APIs
+- Resume-based smart interview flow
+
+---
+
+##  Mock Interview Practice
+- Simulate real interview rounds
+- Practice technical interviews
+- HR & behavioral round preparation
+- Interactive interview experience
+
+---
+
+##  Intelligent Feedback System
+- AI-generated response analysis
+- Personalized improvement suggestions
+- Interview performance evaluation
+- Smart feedback generation
+
+---
+
+##  Credit-Based Access System
+- Credit usage tracking
+- Feature access control
+- Remaining credit monitoring
+- Smooth credit management
+
+---
+
+##  Razorpay Payment Integration
+- Secure online payments
+- Purchase additional interview credits
+- Fast & seamless payment experience
+- Credit wallet functionality
+
+---
+
+##  Modern UI/UX
+- Fully responsive design
+- Smooth animations with Framer Motion
+- Clean and modern interface
+- Optimized user experience
+
+---
+
+# 🖼️ Project Screenshots
+
+##  Home Page
+<img width="100%" alt="Home Page" src="https://i.postimg.cc/0yWhdYQh/Screenshot-2026-05-27-204000.png" />
+
+---
+
+##  AI Interview Dashboard
+<img width="100%" alt="Dashboard" src="https://i.postimg.cc/9QKJQJ0v/Screenshot-2026-05-27-204403.png" />
+
+---
+
+##  Feedback Section
+<img width="100%" alt="Feedback" src="https://i.postimg.cc/HsL20f7Z/Screenshot-2026-05-27-204819.png" />
+
+---
+---
+
+## Credit System
+<img width="100%" alt="Credit Buy" src="https://i.postimg.cc/FHL0DmFG/Screenshot-2026-05-27-204913.png" />
+
+---
+
+# 🛠️ Tech Stack
+
+<table>
+<tr>
+<td><strong>Frontend</strong></td>
+<td>
+
 - React.js
 - Redux Toolkit
 - Tailwind CSS
 - Framer Motion
 - Axios
 
-### Backend
+</td>
+</tr>
+
+<tr>
+<td><strong>Backend</strong></td>
+<td>
+
 - Node.js
 - Express.js
 
-### Database
+</td>
+</tr>
+
+<tr>
+<td><strong>Database</strong></td>
+<td>
+
 - MongoDB
 
-### Authentication
+</td>
+</tr>
+
+<tr>
+<td><strong>Authentication</strong></td>
+<td>
+
 - JWT Authentication
 
-### AI Integration
+</td>
+</tr>
+
+<tr>
+<td><strong>AI Integration</strong></td>
+<td>
+
 - OpenAI API / Gemini API
 
-### Payments
+</td>
+</tr>
+
+<tr>
+<td><strong>Payments</strong></td>
+<td>
+
 - Razorpay
 
-### Deployment
+</td>
+</tr>
+
+<tr>
+<td><strong>Deployment</strong></td>
+<td>
+
 - Render
+
+</td>
+</tr>
+
+</table>
 
 ---
 
-## Project Structure
+
+
+
+
+
+# 🔄 Interview Flow
+
+```text
+Upload Resume (PDF)
+        ↓
+AI Analyzes Resume
+        ↓
+Generate Personalized Questions
+        ↓
+Practice Technical & HR Rounds
+        ↓
+Receive Intelligent Feedback
+        ↓
+Purchase Credits if Needed
+```
+
+---
+
+# 📂 Project Structure
 
 ```bash
 prepwise/
 │
-├── client/                 # React Frontend
-│   ├── components
-│   ├── pages
-│   ├── redux
-│   ├── utils
+├── client/
+│   ├── components/
+│   ├── redux/
+│   ├── pages/
+│   ├── utils/
 │   └── App.js
 │
-├── server/                 # Express Backend
-│   ├── controllers
-│   ├── routes
-│   ├── middleware
-│   ├── models
-│   ├── config
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   ├── config/
 │   └── server.js
 │
 ├── .env
@@ -104,24 +235,40 @@ prepwise/
 
 ---
 
+# 🚀 Future Improvements
 
-## Interview Flow
-
-1. Upload Resume (PDF)  
-2. AI analyzes resume content  
-3. Generate personalized interview questions  
-4. Practice Technical & HR rounds  
-5. Receive intelligent feedback  
-6. Purchase additional credits if needed  
+-  AI Voice-Based Mock Interviews
+-  Real-Time Interview Scoring
+-  Resume Improvement Suggestions
+-  Multi-language Interview Practice
+-  Video Interview Simulation
+-  Performance Analytics Dashboard
+-  Mobile Application
 
 ---
 
-## Future Improvements
+# 👩‍💻 Contributors
 
-- AI Voice-Based Mock Interviews  
-- Real-Time Interview Scoring  
-- Resume Improvement Suggestions  
-- Multi-language Interview Practice  
-- Video Interview Simulation  
-- Performance Analytics Dashboard  
-- Mobile App Version  
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/Prachi-Gupta-01">
+<img src="https://github.com/Prachi-Gupta-01.png" width="100px;" alt=""/>
+<br />
+<sub><b>Prachi Gupta</b></sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/Pragati4214">
+<img src="https://github.com/Pragati4214.png" width="100px;" alt=""/>
+<br />
+<sub><b>Pragati</b></sub>
+</a>
+</td>
+</tr>
+</table>
+
+
+
+
