@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 PrepWise – AI Interview Preparation Platform
+# PrepWise – AI Interview Preparation Platform
 
 ### Smart AI-Powered Mock Interview & Resume-Based Preparation System
 
@@ -15,7 +15,7 @@
 
 ---
 
-# 📌 Overview
+#  Overview
 
 **PrepWise** is a full-stack AI-powered interview preparation platform built using the **MERN Stack**.  
 It helps users prepare for technical and HR interviews through:
@@ -29,7 +29,7 @@ The platform provides a real interview-like experience and helps users improve c
 
 ---
 
-# ✨ Features
+#  Features
 
 ## Resume Upload & Analysis
 - Upload resumes in PDF format
@@ -87,7 +87,7 @@ The platform provides a real interview-like experience and helps users improve c
 
 ---
 
-# 🖼️ Project Screenshots
+#  Project Screenshots
 
 ##  Home Page
 <img width="100%" alt="Home Page" src="https://i.postimg.cc/0yWhdYQh/Screenshot-2026-05-27-204000.png" />
@@ -110,7 +110,7 @@ The platform provides a real interview-like experience and helps users improve c
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ The platform provides a real interview-like experience and helps users improve c
 
 
 
-# 🔄 Interview Flow
+#  Interview Flow
 
 ```text
 Upload Resume (PDF)
@@ -208,7 +208,7 @@ Purchase Credits if Needed
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 prepwise/
@@ -235,7 +235,7 @@ prepwise/
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 -  AI Voice-Based Mock Interviews
 -  Real-Time Interview Scoring
@@ -247,7 +247,7 @@ prepwise/
 
 ---
 
-# 👩‍💻 Contributors
+#  Contributors
 
 <table>
 <tr>
