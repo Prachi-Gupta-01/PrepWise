@@ -1,15 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Auth from './pages/Auth'
+import Home from './pages/Home.jsx'
+import Auth from './pages/Auth.jsx'
 import { useEffect } from 'react'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice'
-import InterviewPage from './pages/InterviewPage'
-import InterviewHistory from './pages/InterviewHistory'
-import Pricing from './pages/Pricing'
-import InterviewReport from './pages/InterviewReport'
+import InterviewPage from './pages/InterviewPage.jsx'
+import InterviewHistory from './pages/InterviewHistory.jsx'
+import Pricing from './pages/Pricing.jsx'
+import InterviewReport from './pages/InterviewReport.jsx'
 
 export const ServerUrl  = "https://prepwise-54s1.onrender.com"
 
